@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class JDBCUserDAO implements UserDao {
+public class JDBCUserDAO implements UserDAO {
 	
 	private final Connection con;
 

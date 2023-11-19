@@ -1,6 +1,6 @@
 package co.jelc.project.persistence;
 
-public interface UserDao{
+public interface UserDAO{
 	
 	boolean validateByCredentials(String username, String password);
 
